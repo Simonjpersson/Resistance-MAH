@@ -1,0 +1,218 @@
+body {
+	font-family: DIN Condensed;
+	background-color: #222;
+	color: #eee;
+	padding: 5px;
+	text-align: center;
+	min-height: 300px;
+}
+h1 {
+	font-size: 40px;
+}
+
+input {
+	width: 30%;
+	height: 30px;
+	border-radius: 5px;
+	}
+
+p {
+	margin: 0px 5px 20px 5px;
+
+}
+ul{
+	padding: 0px;
+}
+
+#head {
+	border: 2px solid #eee;
+	border-radius: 5px;
+	text-align: center;
+}
+#main {
+	border: 2px solid #eee;
+	border-radius: 5px;
+	padding: 5px;
+	min-height: 300px;
+}
+.main {
+	min-height: 300px;
+
+}
+#label {
+	padding: 5px;
+}
+#playerForm {
+
+	padding: 5px;
+}
+
+#mission {
+	list-style-type: none;
+	padding: 0px;
+}
+#nominate {
+	background-color: #000C7E;
+}
+#remove {
+	background-color: #7C0000;
+}
+#success {
+	background-color: #000C7E;
+	height: 350px;
+	width: 25%;
+	margin: 50px;
+}
+#fail {
+	background-color: #7C0000;
+	height: 350px;
+	width: 25%;
+	margin: 50px;
+}
+.listInline {
+	display: inline;
+	padding: 20px;
+}
+
+.button {
+	font-family: DIN Condensed;
+	font-size: 20px;
+	background-color: #333;
+	color: #eee; 
+	border: 2px solid #eee;
+	border-radius: 5px;
+	margin-left: 50px;
+	margin: 1px;
+	width: 35%;
+	height: 30px;
+	padding: 5px;
+
+}
+
+@media screen and (max-width: 1025px) and (min-width: 771px){
+	input {
+		width: 98% !important;
+		height: 50px;
+		font-size: 30px;
+	}
+	#button {
+		margin: 1px;
+
+	}
+	.button {
+		width: 98%;
+		height: 60px;
+		margin: 10px 0px 10px 0px;
+		font-size: 30px;
+
+	}
+	.chosen{
+		font-size: 30px;
+	}
+	#success {
+		background-color: #000C7E;
+		height: 300px;
+		width: 40%;
+		margin: 5px;
+	}
+	#fail {
+		background-color: #7C0000;
+		height: 300px;
+		width: 40%;
+		margin: 5px;
+	}
+	h2 {
+		font-size: 35px;
+		margin: 3px;
+	}
+	p {
+		margin: 0px 5px 20px 5px;
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 770px) and (min-width: 670px){
+	input {
+		width: 98% !important;
+		height: 50px;
+		font-size: 30px;
+	}
+	#button {
+		margin: 1px;
+
+	}
+	.button {
+		width: 98%;
+		height: 60px;
+		margin: 10px 0px 10px 0px;
+		font-size: 30px;
+
+	}
+	.chosen{
+		font-size: 30px;
+	}
+	#success {
+		background-color: #000C7E;
+		height: 300px;
+		width: 40%;
+		margin: 5px;
+	}
+	#fail {
+		background-color: #7C0000;
+		height: 300px;
+		width: 40%;
+		margin: 5px;
+	}
+	h2 {
+		font-size: 35px;
+	}
+	p {
+		margin: 0px 5px 50px 5px;
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 670px){
+	input {
+		width: 98% !important;
+		height: 50px;
+		font-size: 30px;
+	}
+	#button {
+		margin: 1px;
+
+	}
+	.button {
+		width: 98%;
+		height: 60px;
+		margin: 10px 0px 10px 0px;
+		font-size: 30px;
+
+	}
+	#success {
+		background-color: #000C7E;
+		height: 300px;
+		width: 40%;
+		margin: 5px;
+	}
+	#fail {
+		background-color: #7C0000;
+		height: 300px;
+		width: 40%;
+		margin: 5px;
+	}
+	.chosen{
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 35px;
+		margin: 2px;
+
+	}
+	p {
+		margin: 0px 5px 50px 5px;
+		font-size: 30px;
+	}
+
+}

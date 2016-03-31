@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Resistance</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="style2.css">
+	</head>
+	<body>
+        <header id="head">
+            <h1>
+                Resistance
+            </h1>
+            <!-- *** Rulebook - doesn't look very good, though ***
+            <a href="https://en.wikipedia.org/wiki/The_Resistance_(game)" target="_blank">
+                <img src="rules.png" img width="100" height="100"  style= "margin-left: 300px;">
+            </a>
+            //-->
+        </header>
+        <div id="main">
+    		<div id="form">
+                <div id="label">
+                    <h2>Enter player names in order of seating:</h2>
+                </div>
+                <form action="assignRole/resistance.html" method="get" id="playerForm">
+            		<!-- Era indatafält med etiketter -->
+                    <div id="form">
+                		<p>Name: <input type="text" name="player1" id="player1"></p>
+                		<p>Name: <input type="text" name="player2" id="player2"></p>
+                		<p>Name: <input type="text" name="player3" id="player3"></p>
+                		<p>Name: <input type="text" name="player4" id="player4"></p>
+                		<p>Name: <input type="text" name="player5" id="player5"></p>
+                		<div id="buttondiv">
+                            <input id="button" class="button" type="submit" value="Register">
+                        </div>
+        		</form>
+            </div>
+        </div>
+		<!-- Länkar in jQuery -->
+        <script src="jquery-2.2.0.min.js"></script>
+        <!-- Länkar in vår egna JavaScript-fil -->
+        <script src="formscript.js"></script>
+	</body>
+</html>
+
+ <!--  ../index.html -->
