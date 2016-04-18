@@ -1,2 +1,2 @@
-# LIHASIAN
-Projekt 2
+# Resistance
+Projekt 2 MAH
