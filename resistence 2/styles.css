@@ -1,0 +1,14 @@
+#wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 25px;
+}
+
+#game-form-step-2 {
+    display: none;
+}
+
+#lobby {
+    display: none;
+}

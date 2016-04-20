@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Firebase test</title>
+        <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>Resistence</h1>
+
+            <!-- Step 1 -->
+            <div id="game-form-step-1">
+                <form>
+                    <input type="text" id="username" placeholder="Username"><br>
+                    <button type="button" id="create-game">Create new game</button>
+                    <button type="button" id="join-game">Join a game</button>
+                </form>
+            </div>
+
+            <!-- Step 2 -->
+            <div id="game-form-step-2">
+                <input type="text" id="game-name" placeholder="Game"><br>
+                <button type="submit" id="submit-game">Submit</button>
+            </div>
+
+            <!-- Step 3: player list (lobby) -->
+            <div id="lobby">
+                <h2>Players</h2>
+                <ul id="lobby-players"></ul>
+                <button type="button" id="start-game">Start game</button>
+            </div>
+        </div>
+
+        <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
